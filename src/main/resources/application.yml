@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: handoff
+  security:
+    authentication: session
+netty:
+  default:
+    allocator:
+      max-order: 3
